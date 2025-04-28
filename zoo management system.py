@@ -71,7 +71,7 @@ class Zoo:
             print(f" - {member}")
 
     def list_all_enclosures(self):
-        for enclosure in self.enclosures:u
+        for enclosure in self.enclosures:
             print(f"{enclosure.name}:")
             for animal in enclosure.list_animals():
                 print(f"   - {animal}")
